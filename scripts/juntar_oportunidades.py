@@ -5,7 +5,6 @@ SCRIPT_DIR = os.path.dirname(__file__)
 ARQUIVO_LABS = os.path.join(SCRIPT_DIR, '..', 'data', 'Labs', 'labs_com_embedding_agregado.json')
 ARQUIVO_EJS = os.path.join(SCRIPT_DIR, '..', 'data', 'EJs', 'empresas_juniores_com_embedding_agregado.json')
 ARQUIVO_SAIDA = os.path.join(SCRIPT_DIR, '..', 'site', 'public', 'json', 'oportunidades.json')
-raise Exception("Erro forçado para teste de resiliência")
 def carregar_json(filepath):
     print(f"Carregando '{filepath}'...")
     try:
